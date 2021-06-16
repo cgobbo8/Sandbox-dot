@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #313030;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+    font-size: 30px;
+}
+.animated {
+    overflow: hidden;
+}
+
+.animated .div {
+    overflow: hidden;
+}
+.animated:nth-child(odd) {
+    color: rgba(235, 235, 140, 0.831);
+}
